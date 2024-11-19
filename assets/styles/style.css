@@ -1,0 +1,94 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Стилізація header сайта */
+header {
+    display: inline-block;
+    margin-top: 0%;
+    width: 100%;
+    height: 470px;
+    background-color: beige;
+    background-image: url("/assets/images/ракушка.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: #926239;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Стилізація головної кнопки */
+.main-btn {
+    display: inline-block;
+    background-color: white;
+    border: 1px #926239 solid;
+    border-radius: 15px;
+}
+
+.main-btn>a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+    color: #926239;
+}
+
+/* Додавання ефекту для кнопки */
+.main-btn>a:hover {
+    color:#ffffff;
+}
+
+.main-btn:hover {
+    background-color: #926239;
+}
+
+/* Стилізація параграфів */
+.first-p {
+    display: inline-block;
+    background-color: #926239;
+    margin: 0%;
+    padding: 0% 15px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.second-p {
+    display: inline-block;
+    background-color: rgb(242, 247, 247);
+    margin: 0%;
+    padding: 0% 15px;
+    color: #926239;
+    text-align: justify;
+}
+
+.block-model {
+    text-align: initial;
+    padding: 0%;
+    font-size: 0px;
+}
+
+.block-model>div {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.elem {
+   background-color: #926239; 
+   color: #ffffff;
+}
+
